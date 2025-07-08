@@ -2,16 +2,25 @@
 
 @layer components {
   .list {
-    @apply text-white cursor-pointer text-lg
+    @apply text-white cursor-pointer text-lg;
   }
   .list:hover {
-    @apply underline
+    @apply underline;
   }
   .title {
-    @apply flex justify-center text-8xl/32 text-center font-extrabold text-[#0cad60] 
+    @apply flex justify-center text-8xl/32 text-center font-extrabold text-[#0cad60];
   }
   .section__border {
-    @apply  flex justify-center items-center w-full max-w-[1920px] h-[34vh] bg-black text-[#0cad60] text-[135px] font-bold uppercase
+    @apply flex justify-center items-center w-full max-w-[1920px] h-[34vh] bg-black text-[#0cad60] text-[135px] font-bold uppercase;
+  }
+  .work__border {
+    @apply w-full max-w-[1080px] h-[140px] border-none border-1 p-[40px] rounded-2xl bg-gray-100 flex flex-col justify-center;
+  }
+  .works__title {
+    @apply w-[1000px] text-xl font-bold pb-1.5;
+  }
+  .works__description {
+    @apply w-[700px] font-normal;
   }
 }
 
@@ -39,5 +48,3 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
-
-
