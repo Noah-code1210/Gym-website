@@ -1,9 +1,12 @@
+import Aboutinfo from "../../components/Aboutinfo";
 import Aboutme from "../../components/Aboutme";
 import Applynow from "../../components/Applynow";
 import Calender from "../../components/Calender";
 import Header from "../../components/Header";
 import Navbar from "../../components/Navbar";
 import Schedule from "../../components/Schedule";
+import Works from "../../components/Works";
+import Worksinfo from "../../components/Worksinfo";
 
 export default function Home() {
   return (
@@ -14,7 +17,10 @@ export default function Home() {
         <Applynow />
         <Schedule />
         <Calender />
+        <Works />
+        <Worksinfo />
         <Aboutme />
+        <Aboutinfo />
       </div>
     </>
   );
