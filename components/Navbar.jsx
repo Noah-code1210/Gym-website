@@ -6,9 +6,15 @@ function Navbar() {
       behavior: "smooth",
     });
   }
-  function handleScrollToAbout() {
+  function handleScrollToHow() {
     window.scrollTo({
       top: 2560,
+      behavior: "smooth",
+    });
+  }
+  function handleScrollToAbout() {
+    window.scrollTo({
+      top: 3870,
       behavior: "smooth",
     });
   }
@@ -27,7 +33,7 @@ function Navbar() {
               <li className="list" onClick={handleScrollToSchedule}>
                 Schedule
               </li>
-              <li className="list">
+              <li className="list" onClick={handleScrollToHow}>
                 How It Works
               </li>
               <li className="list" onClick={handleScrollToAbout}>
