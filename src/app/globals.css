@@ -1,5 +1,17 @@
 @import "tailwindcss";
 
+@layer components {
+  .list {
+    @apply text-white cursor-pointer text-lg
+  }
+  .list:hover {
+    @apply underline
+  }
+  .title {
+    @apply flex justify-center text-8xl/32 text-center font-extrabold text-[#0cad60] 
+  }
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -24,3 +36,5 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
