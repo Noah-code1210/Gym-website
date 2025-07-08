@@ -9,13 +9,13 @@ function Navbar() {
             src="https://api.removal.ai/download/g2/preview/d378ae8e-f4b0-432e-9e3f-64f876f9ebe7.png" alt="" />
               <ul className="flex gap-12 ">
                 <li className="list">
-                  Contact Me
+                  Schedule
                 </li>
                 <li className="list">
                   About Me
                 </li>
                 <li className="list">
-                  Schedule
+                  Contact Me
                 </li>
               </ul>
             </div>
